@@ -7,12 +7,12 @@ import { HeaderComponenteComponent } from "./header-componente/header-componente
 import { FooterComponenteComponent } from "./footer-componente/footer-componente.component";
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
-import { MovieItemComponent } from './movie-item/movie-item.component';
+
 
 
 @Component({
   selector: 'app-root',
-  imports: [PrimerComponenteComponent, SegundoComponenteComponent, TercerComponenteComponent, HeaderComponenteComponent, FooterComponenteComponent, SearchBarComponent, MovieListComponent, MovieItemComponent],
+  imports: [PrimerComponenteComponent, SegundoComponenteComponent, TercerComponenteComponent, HeaderComponenteComponent, FooterComponenteComponent, SearchBarComponent, MovieListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
